@@ -1,0 +1,308 @@
+/*Project 0006 A*/
+*{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 650px;
+    height: 550px;
+    border: 1px solid black;
+    background-color: aqua;
+    position: relative;
+    padding: 2px;
+    margin: 2px;
+}
+.header{
+    width: 636px;
+    height: 160px;
+    border: 1px solid black;
+    background-color: rgb(182, 37, 37);
+    position: relative;
+    left: 6px;
+    text-align: center;
+}
+.main-header{
+    width: 435px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: rgb(182, 118, 118);
+    position: absolute;
+    right: 5px;
+    text-align: center;
+}
+.main-header-body{
+    width: 405px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: rgb(69, 117, 117);
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    text-align: center;
+}
+.logo{
+    width: 160px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: rgb(95, 235, 235);
+    position: absolute;
+    left: 10px;
+    text-align: center;
+}
+.toolbar{
+    width: 618px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: rgb(154, 163, 160);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.toolbar-body{
+    width: 580px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: rgb(242, 248, 248);
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+
+/*Project 006 B*/
+.main{
+    width: 636px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(55, 55, 241);
+    position: relative;
+    top: 7px;
+    left: 6px;
+    text-align: center;
+}
+
+.sidebar{
+    width: 145px;
+    height: 255px;
+    border: 1px solid black;
+    background-color: rgb(104, 185, 185);
+    position: absolute;
+    right: 10px;
+}
+
+.sidebar-main{
+    width: 125px;
+    height: 180px;
+    border: 1px solid black;
+    background-color: rgb(133, 219, 46);
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.sidebar-main-tittle{
+    width: 105px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+.sidebar-main-body{
+    width: 105px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 75px;
+}
+
+.content{
+    width: 290px;
+    height: 255px;
+    border: 1px solid black;
+    background-color: rgb(221, 33, 71);
+    position: fixed;
+    margin-left: 175px;
+}
+
+.breadcrumb{
+    width: 260px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: rgb(155, 149, 141);
+    position: absolute;
+    right: 15px;
+}
+
+.breadcrumb-selected{
+    width: 230px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: rgb(155, 211, 72);
+    position: absolute;
+    right: 15px;
+}
+
+.content-info{
+    width: 260px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: rgb(171, 233, 48);
+    position: absolute;
+    right: 15px;
+    top: 75px;
+}
+
+.content-info-tittle{
+    width: 230px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.content-info-body{
+    width: 230px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.content-main{
+    width: 260px;
+    height: 75px;
+    border: 1px solid black;
+    background-color: rgb(227, 252, 90);
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 150px;
+}
+
+.content-main-tittle{
+    width: 230px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.content-main-body{
+    width: 230px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.nav{
+    width: 150px;
+    height: 255px;
+    border: 1px solid black;
+    background-color: rgb(104, 185, 185);
+    position: absolute;
+    margin-left: 10px;
+}
+
+.nav-main{
+    width: 125px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: rgb(129, 197, 60);
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.nav-tittle{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.nav-body{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.nav-ads{
+    width: 125px;
+    height: 110px;
+    border: 1px solid black;
+    background-color: rgb(40, 40, 219);
+    position: absolute;
+    top: 120px;
+    right: 10px;
+}
+
+.nav-ads-tittle{
+    width: 105px;
+    height: 38px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.nav-ads-body{
+    width: 105px;
+    height: 38px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.footer{
+    width: 636px;
+    height: 65px;
+    border: 1px solid black;
+    background-color: rgb(236, 37, 37); 
+    margin-left: 6px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+.footer-tittle{
+    width: 606px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 15px;
+}
+
+.footer-body{
+    width: 606px;
+    height: 15px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
