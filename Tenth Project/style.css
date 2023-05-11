@@ -1,0 +1,89 @@
+.container{
+    width: 640px;
+    height: 580px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header{
+    width: 486px;
+    height: 120px;
+    background-color: rgba(4, 4, 75, 0.966);
+}
+
+.header-block1{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 117);
+}
+
+.header-block2{
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    top: 70px;
+    left: 220px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 189);
+}
+
+.sidebar{
+    width: 155px;
+    height: 580px;
+    background-color: lightgray;
+}
+
+.sidebar-block1{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 5px;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+
+.sidebar-block2{
+    width: 95px;
+    height: 20px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+    border-radius: 5px;
+}
+.sidebar-block3{
+    width: 85px;
+    height: 20px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 170px;
+    left: 35px;
+    border-radius: 5px;
+}
+
+.main{
+    width: 486px;
+    height: 457px;
+    position: absolute;
+    background-color: white;
+    top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > div{
+    width: 85px;
+    height: 85px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
