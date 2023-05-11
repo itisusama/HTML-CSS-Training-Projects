@@ -1,0 +1,246 @@
+.container{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Block one Start */
+
+.header{
+    width: 600px;
+    height: 23px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+/* Nav Section */
+.taskbar{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+}
+.search{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.search label{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.search input{
+    border-style: none;
+    width: 80px;
+}
+
+.card{
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 22px;
+}
+
+/* Desigining the cards */
+.card-body{
+    width: 125px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+}
+
+h3{
+    padding-top: 25px;
+}
+
+.card-description{
+    width: 125px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+/* To set the cards in position */
+.card1{
+    position: absolute;
+}
+
+.card2{
+    position: absolute;
+    left: 160px;
+}
+
+.card3{
+    position: absolute;
+    right: 160px;
+}
+
+.card4{
+    position: absolute;
+    right: 0px;
+}
+
+/* Block one End */
+
+/* Block two Start */
+
+.block-two{
+    width: 600px;
+    height: 130px;
+    background-color: lightgray;
+    position: absolute;
+    top: 180px;
+}
+
+.block-two-left{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.block-two-left h3{
+    margin: 0;
+    padding: 0;
+}
+
+.block-two-middle{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.block-two-right{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    right: 10px;
+}
+
+.block-two-right h3{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top:10px;
+}
+
+.block-two-right-top{
+    width: 150px;
+    height: 25px;
+    background-color: blue;
+    position: absolute;
+    left: 12px;
+    top: 50px;
+}
+
+.block-two-right-bottom{
+    width: 150px;
+    height: 25px;
+    background-color: blue;
+    position: absolute;
+    left: 12px;
+    top: 80px;
+}
+
+/* Block two End */
+
+/* Block three start */
+
+.block-three-right{
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.item-image{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+}
+
+.item-name{
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item1{
+    position: absolute;
+}
+
+.item2{
+    position: absolute;
+    left: 120px;
+}
+
+.item3{
+    position: absolute;
+    left: 250px;
+}
+
+.item4{
+    position: absolute;
+    bottom: 0px;
+}
+
+.item5{
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+}
+
+.item6{
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
+}
+
+.block-three-left{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.block-three-left-middle{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    bottom: 35px;
+    background-color: lightgray;
+}
+
+.block-three-left-middle h3{
+    margin: 0px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.block-three-left-lower{
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    background-color: blue;
+}
+
+.block-three-left-top{
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    top: 0px;
+    background-color: grey;
+}
+/* Block three End */
