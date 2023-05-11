@@ -1,0 +1,111 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+        /*Project 0005 A*/
+        .header{
+            width: 715px;
+            height: 70px;
+            background-color: rgb(168, 179, 179);
+            text-align: center;
+            border-radius: 3px;
+            position: fixed;
+    }
+
+    /*Project 0005 B*/
+    .block1{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(196, 124, 124);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 75px;
+    }
+
+    .block2{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(157, 148, 240);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 75px;
+        margin-left: 180px;
+    }
+
+    .block3{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(61, 42, 236);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 75px;
+        margin-left: 360px;
+    }
+
+    .block4{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(125, 86, 126);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 75px;
+        margin-left: 540px;
+    }
+
+    .block5{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(64, 139, 68);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 170px;
+    }
+
+    .block6{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(177, 233, 87);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 170px;
+        margin-left: 180px;
+    }
+
+    .block7{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(212, 146, 92);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 170px;
+        margin-left: 360px;
+    }
+
+    .block8{
+        width: 175px;
+        height: 90px;
+        background-color: rgb(228, 112, 118);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 170px;
+        margin-left: 540px;
+    }
+
+    /*Project 0005 C*/
+    .footer{
+        width: 715px;
+        height: 70px;
+        background-color: rgb(168, 179, 179);
+        text-align: center;
+        border-radius: 3px;
+        position: fixed;
+        margin-top: 265px;
+    }
