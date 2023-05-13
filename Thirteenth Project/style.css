@@ -1,0 +1,139 @@
+.container-bg-image{
+    width: 600px;
+    height: 400px;
+    /* Adding and Fixing the Image so we can work on the image */
+    background-image: url("transparent.jpg");
+    background-attachment: fixed;
+}
+
+.navigation{
+    width: 600px;
+    height: 40px;
+    background-color: rgb(39, 83, 83);
+    position: relative;
+}
+
+.nav-block-left{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-block-left > div{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(110, 113, 124);
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.nav-block-right{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.nav-block-right1{
+    width: 70px;
+    height: 15px;
+    background-color: rgb(110, 113, 124);
+    margin: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 8px;
+    right: 85px;
+}
+
+.nav-block-right2{
+    width: 55px;
+    height: 25px;
+    background-color: lightgray;
+    margin: 3px;
+    border-radius: 3px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+/* main-top Section has 2 blocks */
+.main-top{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-top-block1{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(156, 155, 155);
+    border-radius: 3px;
+}
+
+.main-top-block2{
+    width: 400px;
+    height: 45px;
+    margin: 25px;
+    background-color: rgb(156, 155, 155);
+    border-radius: 3px;
+}
+
+/* main-bottom Section looks like a footer */
+.main-bottom{
+    background-color: lightgrey;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-bottom > div{
+    width: 60px;
+    height: 15px;
+    background-color: rgb(143, 143, 143);
+    margin: 5px;
+    border-radius: 3px;
+}
+
+/* Footer */
+.footer{
+    width: 600px;
+    height: 230px;
+    position: relative;
+}
+
+.footer-left{
+    width: 350px;
+    height: 190px;
+    background-color: rgb(163, 162, 162);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.footer-right-top{
+    width: 180px;
+    height: 80px;
+    background-color: rgb(163, 162, 162);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.footer-right-bottom{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(163, 162, 162);
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
