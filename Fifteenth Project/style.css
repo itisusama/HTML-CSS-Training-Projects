@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 900px;
+    height: 450px;
+    background: linear-gradient(45deg, rgb(248,80,50) 0%,rgb(246,41,12) 27%,rgb(241,111,92) 44%,rgb(241,111,92) 44%,rgb(241,111,92) 58%,rgb(240,47,23) 73%,rgb(231,56,39) 100%);
+    position: relative;
+}
+
+/* Icons */
+.menu{
+    background-color: aliceblue;
+    width: 38px;
+    height: 40px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.menu-block-bottom{
+    width: 38px;
+    height: 230px;
+    background-color: aliceblue;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    top: 75px;
+}
+
+.menu-block-bottom{
+    width: 38px;
+    height: 230px;
+    line-height: 45px;
+}
+
+.hero{
+    width: 320px;
+    height: 407px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 22px;
+    left: 75px;
+    box-shadow: -3px -5px 0 0 rgb(0, 0, 0);
+}
+
+img{
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    /* clip-path: polygon(0 0, 100% 0, 100% 91%, 50% 100%, 0 91%); */
+    /* creates a clipping region that sets what part of an element should be shown */
+    clip-path: polygon(100% 0, 100% 86%, 50% 100%, 0 88%, 0 0);
+}
+
+.person-info{
+    width: 320px;
+    height: 80px;
+    position: absolute;
+    top: 250px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education{
+    font-size: smaller;
+    color: rgb(218, 42, 19);
+}
+
+.info-icons{
+    position: absolute;
+    bottom: 5px;
+}
+
+.info-icons i{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info{
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* About Section */
+.about{
+    width: 240px;
+    height: 390px;
+    background-color: white;
+    position: absolute;
+    left: 395px;
+    top: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+strong{
+    color: rgb(218, 42, 19);
+}
+
+.about-block{
+    width: 230px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-para p{
+    width: 220px;
+    font-size: small;
+}
+
+.code{
+    background-color: rgb(218, 42, 19);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+/* Personal Info Section */
+.personal-info{
+    width: 240px;
+    height: 390px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 635px;
+    top: 30px;
+}
+
+.pi-left-block{
+    width: 240px;
+    height: 330px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.pi-right-block{
+    width: 240px;
+    height: 330px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.pi-left-block > div{
+    background-color: rgb(218, 42, 19);
+    color: white;
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pi-right-block > div{
+    color: black;
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+}
+
+.music{
+    background-color: rgb(218, 42, 19);
+    border-radius: 100%;
+    padding: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
