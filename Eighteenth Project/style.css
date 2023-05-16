@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Menu */
+.container{
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.menu{
+    width: 100px;
+    height: 300px;
+    position: absolute;
+}
+
+.top-profile{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    text-align: center;
+    background: linear-gradient(to top,rgb(248, 109, 109),rgb(248, 17, 17));
+}
+
+.user{
+    color: aliceblue;
+    margin: 7px;
+    position: absolute;
+}
+
+.top-para{
+    font-size: 10px;
+    line-height: 30px;
+    left: 30px;
+    color: aliceblue;
+}
+
+.resume{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to top,rgb(248, 109, 109),rgb(248, 17, 17));
+    top: 45px;
+    left: 20px;
+    position: absolute;
+}
+
+.rsm{
+    position: absolute;
+    margin: 8px;
+    color: aliceblue;
+}
+
+.portfolio{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to top,rgb(248, 109, 109),rgb(248, 17, 17));
+    top: 80px;
+    left: 20px;
+    position: absolute;
+}
+
+.port{
+    color: aliceblue;
+    margin: 6px;
+}
+
+.bio{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to top,rgb(248, 109, 109),rgb(248, 17, 17));
+    top: 115px;
+    left: 20px;
+    position: absolute;
+}
+
+.bio-type{
+    color: aliceblue;
+    margin: 7px;
+}
+
+.contact{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to top,rgb(248, 109, 109),rgb(248, 17, 17));
+    top: 150px;
+    left: 20px;
+    position: absolute;
+}
+
+.contact-icon{
+    color: aliceblue;
+    margin: 6.5px;
+}
+
+
+/* Main Section */
+.main{
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+}
+
+.hero{
+    width: 370px;
+    height: 110px;
+}
+
+.hero-heading{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+
+.heading-para{
+    position: absolute;
+    font-size: smaller;
+    left: 120px;
+    top: 75px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    background-color: brown;
+}
+
+
+.main-para{
+    position: absolute;
+    font-size: 10px;
+    top: 130px;
+}
+
+.message2{
+    width: 40px;
+    height: 60px;
+    top: 30px;
+    position: absolute;
+    font-size: small;
+    color: rgb(148, 148, 148);
+}
+
+.msg2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 40px;
+    background-color: rgb(192, 190, 190);
+    text-align: center;
+}
+
+.portfolio2{
+    width: 40px;
+    height: 60px;
+    top: 30px;
+    left: 100px;
+    position: absolute;
+    font-size: small;
+    color: rgb(148, 148, 148);
+}
+
+.port2{
+    width: 40px;
+    background-color: rgb(192, 190, 190);
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.bio2{
+    width: 40px;
+    height: 50px;
+    top: 30px;
+    position: absolute;
+    left: 190px;
+    color: rgb(148, 148, 148);
+}
+
+.bio3{
+    width: 40px;
+    background-color: rgb(192, 190, 190);
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contact2{
+    width: 40px;
+    height: 50px;
+    top: 30px;
+    position: absolute;
+    left: 280px;
+    color: rgb(148, 148, 148);
+}
+
+.contact-icon2{
+    width: 40px;
+    background-color: rgb(192, 190, 190);
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-main{
+    position: absolute;
+    bottom: 130px;
+}
+
+/* Side Information */
+.social-contact{
+    width: 130px;
+    height: 270px;
+    /* border: 1px solid black; */
+    position: absolute;
+    margin-left: 470px;
+    font-size: 11px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.tweet{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(61, 152, 236);
+    border-radius: 50%;
+    margin-left: 115px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.fb{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(44, 23, 230);
+    border-radius: 50%;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.insta{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(206, 106, 236);
+    border-radius: 50%;
+    margin-left: 85px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.gplus{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(35, 213, 226);
+    border-radius: 50%;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.social-para{
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+}
+
+.mail{
+    font-size: 8px;
+}
