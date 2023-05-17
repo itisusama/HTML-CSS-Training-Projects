@@ -1,0 +1,125 @@
+*{
+    font-size: small;
+}
+
+/* Header */
+.container{
+    width: 550px;
+    height: 800px;
+    border: 3px solid black;
+    background-color: black;
+}
+
+.container-2{
+    width: 530px;
+    height: 780px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.header{
+    width: 530px;
+    height: 130px;
+    background-color: rgb(62, 63, 63);
+}
+
+ul{
+    list-style: none;
+    color: white;
+    font-size: small;
+}
+
+.ul-1{
+    position: absolute;
+    left: 320px;
+    top: 50px;
+}
+
+.ul-2{
+    position: absolute;
+    left: 480px;
+    top: 50px;
+}
+
+.hero-heading{
+    color: white;
+    position: absolute;
+    left: 140px;
+}
+
+.hero-heading1{
+    position: absolute;
+    top: 0px;
+}
+
+.hero-heading2{
+    position: absolute;
+    top: 35px;
+}
+
+.hero-heading small{
+    width: 80px;
+    position: absolute;
+    top: 90px;
+    font-size: 10px;
+}
+
+.hero-img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+/* Section 1 */
+.section-1{
+    width: 530px;
+    height: 55px;
+    background-color: rgb(199, 16, 16);
+    color: white;
+    position: absolute;
+    top: 150px;
+}
+
+h6{
+    position: absolute;
+    margin: 5px;
+    left: 70px;
+    top: 5px;
+}
+
+.line{
+    width: 5px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+
+.top-para{
+    font-size: 8px;
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+ }
+
+ /* Main */
+.date{
+    position: absolute;
+    left: 480px;
+    top: 200px;
+}
+
+.para1{
+    margin-top: 75px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .name{
+    margin-left: 10px;
+}
+
+.para2{
+    width: 500px;
+    margin-left: 10px;
+}
