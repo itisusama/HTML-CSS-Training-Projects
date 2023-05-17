@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.container{
+    width: 550px;
+    height:730px;
+}
+
+.header{
+    width: 550px;
+    height: 150px;
+    position: relative;
+    background-color: black;
+}
+
+.fb{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    font-size: small;
+}
+
+.insta{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-size: small;
+}
+
+.tweet{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: small;
+}
+
+.link{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-size: small;
+}
+
+.gplus{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    font-size: small;
+}
+
+.main-heading{
+    color: aliceblue;
+    font-family: cursive;
+    position: absolute;
+    left: 185px;
+    top: 10px;
+}
+
+.button{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(236, 4, 4);
+    border-radius: 10px;
+    left: 400px;
+    top: 60px;
+    text-align: center;
+}
+
+.hero{
+    border-radius: 50%;
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: 85px;
+    left: 200px;
+}
+
+/* Main Section */
+.main{
+    width: 550px;
+    height: 300px;
+}
+
+.main-h5{
+    position: absolute;
+    top: 242px;
+    left: 150px;
+}
+
+ul{
+    position: absolute;
+    top: 240px;
+    left: 190px;
+}
+
+li{
+    list-style: none;
+    font-size: 10px;
+    display: inline;
+    margin: 5px;
+}
+
+.about-h2{
+    text-align: center;
+    position: absolute;
+    bottom: 240px;
+    left: 25px;
+}
+
+/* Footer */
+
+.footer{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+}
+
+.footer-in{
+    width: 530px;
+    height: 180px;
+    background-color: rgb(215, 219, 223);
+    position: absolute;
+}
+
+.footer-h2{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 15px;
+}
+
+.footer-para{
+    width: 350px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-size: 15px;
+}
+
+.footer-3{
+    width: 120px;
+    height: 180px;
+    position: absolute;
+    right: 0px;
+}
+
+.footer-1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
