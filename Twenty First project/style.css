@@ -1,0 +1,360 @@
+
+p{
+    color: grey;
+}
+
+.container{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    background-color: rgb(184, 21, 9);
+}
+
+.container-2{
+    margin: 9px;
+    width: 580px;
+    height: 780px;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+.side-bar{
+    width: 200px;
+    height: 780px;
+    position: absolute;
+    background-color: rgb(39, 38, 38);
+}
+
+/* Resume Section */
+.resume-block{
+    width: 200px;
+    height: 240px;
+    position: absolute;
+}
+
+.resume-heading{
+    color: aliceblue;
+    position: absolute;
+    left: 5px;
+}
+
+.resume-heading hr{
+    width: 35px;
+    height: 10px;
+    border: none;
+    position: absolute;
+    top: 35px;
+    background-color: rgb(184, 21, 9);
+}
+
+.resume-description{
+    width: 190px;
+    font-size: 10px;
+    position: absolute;
+}
+
+/* Awards Section */
+.award-block{
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    top: 240px;
+}
+
+.award-heading{
+    color: rgb(184, 21, 9);
+    position: absolute;
+    left: 5px;
+}
+
+.award-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    background-color: rgb(184, 21, 9);
+}
+
+.award-first, .award-second, .award-third{
+    width: 100px;
+    color: aliceblue;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.award-description{
+    width: 143px;
+    font-size: 9px;
+    position: absolute;
+    top: 35px;
+}
+
+.award-second{
+    top: 140px;
+}
+
+.award-third{
+    top: 185px;
+}
+
+/* Reference Block Section */
+
+.reference-block{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 480px;
+
+}
+
+.reference-heading{
+    color: rgb(184, 21, 9);
+    position: absolute;
+    left: 5px;
+}
+
+.reference-icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    background-color: rgb(184, 21, 9);
+}
+
+.reference-description1, .reference-description2{
+    width: 143px;
+    color: aliceblue;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+.description1-p1{
+    position: absolute;
+    font-size: 10px;
+    top: 30px;
+    left: 10px;
+}
+
+.description1-p2{
+    position: absolute;
+    top: 40px;
+    color: rgb(184, 21, 9);
+}
+
+.description1-p3{
+    position: absolute;
+    top: 60px;
+}
+
+.description1-p3 b{
+    color: rgb(184, 21, 9);
+}
+
+.reference-description2{
+    top: 160px;
+}
+
+/* Main Section */
+.main{
+    width: 380px;
+    height: 780px;
+    position: absolute;
+    left: 200px;
+}
+
+/* Design skill Section */
+.design-skill-block, .developer-skill-block{
+    width: 380px;
+    height: 300px;
+    position: absolute;
+}
+
+.ds-heading{
+    background-color: black;
+    width: 85px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+}
+
+.ds-heading > span{
+    color: rgb(184, 21, 9);
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.ds-icon{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    left: 85px;
+    top: 0px;
+    background-color: rgb(184, 21, 9);
+}
+
+/* DS Skill bars */
+
+#ds-span2{
+    width: 50px;
+    font-size: 8px;
+    background-color: black;
+    color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    left: 280px;
+}
+
+#ds-span3{
+    width: 50px;
+    font-size: 8px;
+    color: black;
+    padding: 2px;
+    position: absolute;
+    left: 280px;
+}
+
+.ds-skillbar1, .ds-skillbar2, .ds-skillbar3, .ds-skillbar4{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.outer-bar1{
+    width: 335px;
+    height: 15px;
+    background-color: lightgrey;
+    position: absolute;
+}
+
+.inner-bar1, .inner-bar2, .inner-bar3, .inner-bar4, .inner-bar5, .inner-bar6, .inner-bar7, .inner-bar8{
+    width: 280px;
+    height: 15px;
+    background-color: rgb(184, 21, 9);
+    position: absolute;
+}
+
+.inner-bar1 > small, .inner-bar2 > small, .inner-bar3 > small, .inner-bar4 > small{
+    position: absolute;
+    right: 0px;
+}
+
+.inner-bar5 > small, .inner-bar6 > small, .inner-bar7 > small, .inner-bar8 > small{
+    position: absolute;
+    right: 0px;
+}
+
+.ds-para{
+    width: 335px;
+    font-size: 10px;
+    position: absolute;
+    top: 30px
+}
+
+.ds-skillbar2{
+    top: 150px;
+}
+
+.inner-bar2{
+    width: 320px;
+}
+
+.ds-skillbar3{
+    top: 200px;   
+}
+
+.inner-bar3{
+    width: 200px;
+}
+
+.inner-bar3{
+    width: 200px;
+}
+
+.ds-skillbar4{
+    top: 250px;   
+}
+
+.inner-bar4{
+    width: 300px;
+}
+
+/* Developer skill Section */
+.developer-skill-block{
+    top: 300px;
+}
+
+.inner-bar5{
+    width: 300px;
+}
+.inner-bar6{
+    width: 200px;
+} 
+.inner-bar7{
+    width: 250px;
+}
+
+.inner-bar8{
+    width: 310px;
+}
+
+/* Education Skills */
+
+.es-heading{
+    background-color: black;
+    width: 85px;
+    height: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+}
+
+.es-heading > span{
+    color: rgb(184, 21, 9);
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.es-icon{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    left: 85px;
+    top: 0px;
+    background-color: rgb(184, 21, 9);
+}
+
+.es-para{
+    width: 335px;
+    font-size: 10px;
+    position: absolute;
+    left: 30px;
+    bottom: 70px
+}
+
+.es-span1, .es-span3{
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+}
+
+.es-span2, .es-span4{
+    position: absolute;
+    bottom: 108px;
+    left: 40px;
+    font-size: 10px;
+}
+
+.es-span3{
+   bottom: 50px;
+}
+
+.es-span4{
+    bottom: 40px;
+}
