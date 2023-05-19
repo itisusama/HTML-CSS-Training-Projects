@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 500px;
+    height: 900px;
+    position: relative;
+    background-color: brown;
+    position: relative;
+}
+
+.container-2{
+    width: 460px;
+    height: 860px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.clip-image{
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    z-index: 1;
+}
+
+/* Image */
+.container-image-border{
+    width: 100px;
+    height: 120px;
+    background-color: lightgray;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.container-image{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Info */
+.personal-info{
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+.name{
+    color: rgb(223, 2, 2);
+    font-size: 15px;
+    position: absolute;
+}
+
+.designation{
+    color: rgb(223, 2, 2);
+    position: absolute;
+    font-size: 11px;
+}
+
+.pi-top-icons{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    color: black;
+}
+
+.pi-top-icons > div{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+
+.twitter{
+    color: aqua;
+}
+
+.fb{
+    color: blue;
+}
+
+.list-data{
+    list-style: none;
+    font-size: 11px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.list-icon{
+    list-style: none;
+    font-size: 11px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.personal-info ul li{
+    margin: 8px;
+}
+
+
+/* objective */
+
+.objective{
+    width: 410px;
+    height: 30px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+.objective-heading{
+    color: rgb(223, 2, 2);
+    font-size: 15px;
+    position: absolute;
+}
+
+.objective-para{
+    width: 330px;
+    font-size: 8px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* Education */
+.education{
+    width: 410px;
+    height: 300px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+
+.education-heading{
+    color: rgb(223, 2, 2);
+    font-size: 15px;
+    position: absolute;
+}
+
+/* Education data */
+.edu1, .edu2, .edu3, .edu4, .edu5{
+    width: 410px;
+    height: 30px;
+    position: absolute;
+}
+
+.e1-heading{
+    font-size: 9px;
+    color: rgb(223, 2, 2);
+}
+
+.e1-para{
+    width: 330px;
+    font-size: 8px;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+
+.edu2{
+    top: 60px;
+}
+.edu3{
+    top: 130px;
+}
+.edu4{
+    top: 160px;
+}
+.edu5{
+    top: 200px;
+}
+
+/* Skills */
+
+.skills{
+    width: 410px;
+    height: 150px;
+    position: absolute;
+    top: 520px;
+    left: 30px;
+}
+
+.skills-heading{
+    color: rgb(223, 2, 2);
+    font-size: 15px;
+    position: absolute;
+}
+
+.s1-heading{
+    font-size: 8px;
+    color: rgb(223, 2, 2);
+}
+
+.s2-heading{
+    font-size: 8px;
+    color: rgb(223, 2, 2);
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+/* skill blocks */
+.s-section1, .s-section2{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    display: flex;
+}
+
+.s-section1 > div, .s-section2 > div{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+ 
+}
+
+.s-section2{
+    top: 90px;
+}
+
+.s-list{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+/* Work */
+.work{
+    width: 410px;
+    height: 150px;
+    position: absolute;
+    top: 680px;
+    left: 30px;
+}
+
+.work-heading{
+    color: rgb(223, 2, 2);
+    font-size: 15px;
+    position: absolute;
+}
+
+/* work */
+.image-blocks{
+    width: 330px;
+    position: absolute;
+    left: 90px;
+    top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-blocks > div{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
