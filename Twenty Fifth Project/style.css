@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 650px;
+    height: 970px;
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+}
+
+.container-2{
+    width: 630px;
+    height: 955px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+/* Header */
+.header{
+    width: 630px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+}
+
+.l-icon{
+    position: absolute;
+    left: 10px;
+}
+
+.line{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(63, 63, 63);
+    position: absolute;
+    left: 40px;
+}
+
+.name-designation{
+    position: absolute;
+    left: 100px;
+}
+
+.r-icons{
+    position: absolute;
+    right: 50px;
+    display: flex;
+}
+
+.r-icons > div{
+    margin: 5px;
+}
+
+.h-para{
+    font-size: 12px;
+    position: absolute;
+    top: 130px;
+    right: 100px;
+}
+
+.ps1{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+/* Main */
+/* Block 1 */
+.block1{
+    width: 630px;
+    height: 230px;
+    position: absolute;
+    top: 200px;
+}
+
+.s-icon{
+    position: absolute;
+    left: 10px;
+}
+
+.line2{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(63, 63, 63);
+    position: absolute;
+    left: 40px;
+}
+
+/* Skill Bars */
+.skill-bars{
+    font-size: 13px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.skill-bars > div{
+    background-color: rgb(63, 63, 63);
+    margin: 2px;
+    color: white;
+}
+
+.bar-value1{
+    position: absolute;
+    left: 350px;
+}
+.s-1{
+    width: 370px;
+}
+
+.bar-value2{
+    position: absolute;
+    left: 270px;
+}
+.s-2{
+    width: 300px;
+}
+
+.bar-value3{
+    position: absolute;
+    left: 400px;
+}
+.s-3{
+    width: 430px;
+}
+
+.bar-value4{
+    position: absolute;
+    left: 400px;
+}
+.s-4{
+    width: 430px;
+}
+
+.bar-value5{
+    position: absolute;
+    left: 400px;
+}
+.s-5{
+    width: 430px;
+}
+
+.bar-value6{
+    position: absolute;
+    left: 340px;
+}
+.s-6{
+    width: 370px;
+}
+
+.bar-value7{
+    position: absolute;
+    left: 340px;
+}
+.s-7{
+    width: 370px;
+}
+
+.bar-value8{
+    position: absolute;
+    left: 300px;
+}
+.s-8{
+    width: 330px;
+}
+
+.bar-value9{
+    position: absolute;
+    left: 170px;
+}
+.s-9{
+    width: 200px;
+}
+
+/* Block 2 */
+.block2{
+    width: 630px;
+    height: 250px;
+    position: absolute;
+    top: 435px;
+}
+
+.e-icon{
+    position: absolute;
+    left: 10px;
+}
+
+.line3{
+    width: 40px;
+    height: 10px;
+    background-color: rgb(63, 63, 63);
+    position: absolute;
+    left: 40px;
+}
+
+/* Paragraphs */
+.para1{
+    width: 630px;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-left{
+    width: 150px;
+    height: 60px;
+}
+
+.p-right{
+    width: 350px;
+    height: 60px;
+}
+
+.para2{
+    width: 630px;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.para3{
+    width: 630px;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.e1-para1, .e1-para2{
+    font-size: 10px;
+}
+
+/* block 3 */
+/* Education */
+.block3{
+    width: 630px;
+    height: 250px;
+    position: absolute;
+    top: 700px;
+}
