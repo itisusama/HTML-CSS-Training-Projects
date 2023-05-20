@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 0025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-2">
+            <header>
+                <div class="header">
+                    <div class="l-icon"><i class="icon1 fa-solid fa-address-card"></i></div>
+                    <div class="line"></div>
+                    
+                    <div class="name-designation">
+                        <span class="name">USAMA HASSAN</span><br>
+                        <span class="designation">Free-Lncer, Web Devolper / Designer</span>
+                    </div>
+                    
+                    <div class="r-icons">
+                        <div><i class="fa-brands fa-facebook"></i></div>
+                        <div><i class="fa-brands fa-square-twitter"></i></div>
+                        <div><i class="fa-brands fa-square-youtube"></i></div>
+                        <div><i class="fa-brands fa-google-plus"></i></div>
+                        <div><i class="fa-brands fa-square-instagram"></i></div>
+                    </div>
+                </div>
 
+                <div class="h-para">
+                    <p>
+                        <small>Web developers build websites and ensure they perform reliably and efficiently. Learn more about this<br>
+                            Web developers build websites and ensure they perform reliably and efficiently. Learn more about this<br>
+                            Web developers build websites and ensure they perform reliably and efficiently. <span class="ps1">Learn more about this</span></small>
+                    </p>
+                </div>
+            </header>
+                 <!-- Main -->
+            <main>
+                <div class="block1">
+                    <div class="s-icon"><i class="icon1 fa-solid fa-screwdriver-wrench"></i></div>
+                    <div class="line2"></div>
+                    
+                    <div class="name-designation">
+                        <span class="name">SKILLS</span><br>
+                    </div>
+
+                    <div class="skill-bars">
+                        <div class="s-1">Freelance and Development <span class="bar-value1">85%</span></div>
+                        <div class="s-2">Freelance <span class="bar-value2">65%</span></div>
+                        <div class="s-3">HTML <span class="bar-value3">100%</span></div>
+                        <div class="s-4">CSS <span class="bar-value4">100%</span></div>
+                        <div class="s-5">jquery <span class="bar-value5">100%</span></div>
+                        <div class="s-6">javascript <span class="bar-value6">85%</span></div>
+                        <div class="s-7">sql <span class="bar-value7">85%</span></div>
+                        <div class="s-8">wordpress <span class="bar-value8">70%</span></div>
+                        <div class="s-9">shipify <span class="bar-value9">40%</span></div>
+                    </div>
+                </div><!-- Block 1 end -->
+
+                <div class="block2">
+                    <div class="e-icon"><i class="icon1 fa fa-clock"></i></div>
+                    <div class="line3"></div>
+                    
+                    <div class="name-designation">
+                        <span class="name">EXPERIENCE</span><br>
+                    </div>
+
+                    <div class="para1">
+                        <div class="p-left">
+                            <p class="e1-para1">Current Company<br>Los Angeles, California, USA<br>May 10, 2020</p>
+                        </div>
+                        <div class="p-right">
+                            <p class="e1-para2">
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="para2">
+                        <div class="p-left">
+                            <p class="e1-para1">Some other Company<br>Los Angeles, California, USA<br>May 10, 2021</p>
+                        </div>
+                        <div class="p-right">
+                            <p class="e1-para2">
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="para3">
+                        <div class="p-left">
+                            <p class="e1-para1">Another Company<br>Los Angeles, California, USA<br>May 10, 2022</p>
+                        </div>
+                        <div class="p-right">
+                            <p class="e1-para2">
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- block2 End -->
+
+                <!-- Block 3 -->
+                <div class="block3">
+                    <div class="e-icon"><i class="icon1 fa-sharp fa-solid fa-building-columns"></i></i></div>
+                    <div class="line3"></div>
+                    
+                    <div class="name-designation">
+                        <span class="name">EDUCATION</span><br>
+                    </div>
+
+                    <div class="para1">
+                        <div class="p-left">
+                            <p class="e1-para1">Harward University<br>Los Angeles, California, USA<br>May 10, 2020</p>
+                        </div>
+                        <div class="p-right">
+                            <p class="e1-para2">
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="para2">
+                        <div class="p-left">
+                            <p class="e1-para1">John Hopkins University<br>Los Angeles, California, USA<br>May 10, 2021</p>
+                        </div>
+                        <div class="p-right">
+                            <p class="e1-para2">
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites and ensure they perform reliably and efficiently.<br>
+                                Web developers build websites
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Block 3 end -->
+            </main>
+        </div>
+    </div>
+</body>
+</html>
