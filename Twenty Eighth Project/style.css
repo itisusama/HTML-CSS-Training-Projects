@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 850px;
+    border: 1px solid black;
+    position: relative;
+}
+
+/* Header */
+.designation{
+    font-size: 9px;
+    color: aqua;
+}
+
+.top-para{
+    font-size: 8px;
+    position: absolute;
+    top: 50px;
+}
+
+/* Info */
+.info{
+    width: 500px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 90px;
+    font-size: 10px;
+    color: white;
+}
+
+.info-block1{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+
+.info-block2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.info-block3{
+    position: absolute;
+    left: 250px;
+    top: 5px;
+}
+
+.info-block4{
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+
+/* Experience */
+.experience{
+    position: absolute;
+    top: 150px;
+}
+
+.experience >i{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+/* experience boxes */
+.exp-main{
+    position: absolute;
+    top: 170px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exp-main >div{
+    width: fit-content;
+    height: fit-content;
+    margin: 2px;
+    padding: 3px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* Dual Line */
+.dual-line{
+    position: absolute;
+    top: 260px;
+    display: flex;
+}
+
+.line1{
+    width: 280px;
+    height: 3px;
+    background-color: black;
+}
+
+.line2{
+    width: 220px;
+    height: 3px;
+    background-color: aqua;
+}
+/* Dual Line */
+
+/* Work Experience */
+.work-experience{
+    position: absolute;
+    top: 280px;
+}
+
+.work-experience >i{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.we-line{
+    width: 1px;
+    height: 190px;
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    z-index: -1;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 30px;
+}
+
+/* Text 1 */
+.text1{
+    width: 250px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+/* Text 2 */
+.text2{
+    width: 200px;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    color: aqua;
+    font-size: 10px;
+}
+
+/* Para */
+.we-para{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.we-para p{
+    width: 380px;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+ 
+.we-icon{
+    font-size: 7px;
+    color: aqua;
+}
+
+/* dot 2 */
+.dot2{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 210px;
+}
+
+/* Work Experience Block 2 */
+.we-block2{
+    width: 380px;
+    height: 150px;
+    position: absolute;
+    top: 178px;
+}
+
+/* Dual Line 2 */
+.dual-line2{
+    position: absolute;
+    top: 620px;
+    display: flex;
+}
+/* Dual Line 2 */
+
+/* Education */
+.education{
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.education >i{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* Eblocks */
+.e-blocks{
+    display: flex;
+}
+
+.e-blocks >div{
+    width: 250px;
+    height: 60px;
+}
+
+/* Eblock2 */
+.text3{
+    width: 250px;
+    position: absolute;
+    left: 270px;
+    top: 30px;
+}
+
+/* Text 2 */
+.text4{
+    width: 200px;
+    position: absolute;
+    left: 270px;
+    top: 70px;
+    color: aqua;
+    font-size: 10px;
+}
+
+/* Dual Line 3 */
+.dual-line3{
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+}
+/* Dual Line 3 */
+
+/* Certification */
+.certificate{
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.certificate >i{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* CBlocks */
+.c-blocks{
+    display: flex;
+    position: absolute;
+}
+
+.c-blocks >div{
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 10px;
+}
