@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
+
+/* Header */
+.header{
+    position: absolute;
+    width: 180px;
+    height: 300px;
+    background-color: rgb(201, 20, 20);
+    color: aliceblue;
+}
+
+/* Left Side */
+
+.left-side{
+    width: 120px;
+    height: 150px;
+    background-color: rgb(4, 17, 27);
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.left-img{
+    position: absolute;
+    width: 114px;
+    height: 110px;
+    margin: 3px;
+}
+
+.left-name{
+    text-align: center;
+    margin-top: 115px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.left-para{
+    font-size: 8px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Contact */
+.contact{
+    width: 170px;
+    height: 120px;
+    position: absolute;
+    top: 170px;
+    left: 5px;
+}
+
+.con-heading{
+    margin-left: 10px;
+}
+
+hr{
+    margin-top: 5px;
+}
+
+.con-para1{
+  margin-top: 15px;
+}
+
+.con-para1 >p, .con-para2 >p{
+    font-size: 10px;
+    position: absolute;
+    left: 30px;
+}
+
+.con-icon1, .con-icon2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+}
+
+.con-icon1 > i{
+ font-size: small;
+}
+
+.con-icon2 > i{
+    font-size: small;
+}
+
+.con-para2{
+    margin-top: 50px;
+}
+
+/* Right Side */
+
+.right-side{
+    width: 420px;
+    height: 300px;
+    position: absolute;
+    left: 180px;
+}
+
+.name-designation{
+    position: absolute;
+    right: 5px;
+    text-align: end;
+    color: gray;
+}
+
+/* profile */
+.profile{
+    width: 415px;
+    height: 120px;
+    position: absolute;
+    left: 5px;
+    top: 55px;
+}
+
+.profile hr{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.p-icon{
+    position: absolute;
+    left: 10px;
+}
+
+.p-heading{
+    position: absolute;
+    left: 30px;
+}
+
+.p-description{
+    width: 408px;
+    height: 70px;
+    position: absolute;
+    left: 5px;
+}
+
+.p-description >p{
+    font-size: 11px;
+}
+
+/* Buttons */
+
+.p-btns{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+.hire-btn{
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    line-height: 10px;
+    font-size: 7px;
+    border-radius: 7px;
+    border-width: 0.5px;
+}
+
+.cv-btn{
+    width: 100px;
+    height: 18px;
+    line-height: 10px;
+    font-size: 7px;
+    border-radius: 7px;
+    border-width: 0.5px;
+    position: absolute;
+    left: 70px;
+}
+
+/* Experience */
+.experience{
+    width: 415px;
+    height: 120px;
+    position: absolute;
+    left: 5px;
+    top: 195px;
+}
+
+.e-icon{
+    position: absolute;
+    left: 10px;
+}
+
+.e-heading{
+    position: absolute;
+    left: 30px;
+}
+
+.experience hr{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.pd-right{
+    position: absolute;
+    right: 3px;
+}
+
+.e-icons-bottom{
+    font-size: 9px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
