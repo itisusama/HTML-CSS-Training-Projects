@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+    width: 640px;
+    height: 400px;
+    background: linear-gradient(to left, rgb(8, 74, 255), rgb(124, 163, 247));
+}
+
+.icon{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icon-span{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+/* resume-body */
+.resume-body{
+    background-color: aliceblue;
+    width: 500px;
+    height: 320px;
+    position: absolute;
+    left: 70px;
+}
+
+/* Image */
+.image-box{
+    width: 85px;
+    height: 85px;
+    background-color: blue;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    padding: 5px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 3px;
+}
+
+/* Name */
+.name{
+    position: absolute;
+    font-size: 15px;
+    top: 50px;
+    left: 120px;
+}
+
+.name >small{
+    font-size: 7px;
+}
+
+/* About Me */
+.about >h5{
+    width: 80px;
+    border-left: 3px solid blue;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.about-para{
+    width: 220px;
+    height: 130px;
+    position: absolute;
+    top: 175px;
+    left: 25px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+/* Contact */
+.contact{
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    right: 80px;
+    top: 40px;
+}
+
+.contact >h5{
+    width: 90px;
+    border-left: 3px solid blue;
+    position: absolute;
+    left: 0px;
+}
+
+.contact-para{
+    font-size: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+}
+
+.contact-para span{
+    color: blue;
+}
+
+/* SKills */
+.skills{
+    width: 220px;
+    height: 170px;
+    position: absolute;
+    right: 10px;
+    top: 140px;
+}
+
+.skills >h5{
+    width: 60px;
+    border-left: 3px solid blue;
+    position: absolute;
+    left: 0px;
+}
+
+/* skill bars */
+
+.skill1, .skill2, .skill3, .skill4, .skill5{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: blue;
+    text-align: left;
+    font-size: 12px;
+}
+
+.outer-bar{
+    width: 200px;
+    height: 15px;
+    border: 1px solid blue;
+}
+
+.inner-bar{
+    width: 140px;
+    height: 15px;
+    background: linear-gradient(to left, rgb(124, 163, 247), rgb(8, 74, 255));
+}
+
+/* Skills css... */
+.skill2{
+    top: 50px;
+}
+
+.skill3{
+    top: 80px;
+}
+
+.skill4{
+    top: 110px;
+}
+
+.skill5{
+    top: 140px;
+}
+
+/* inner-bars */
+.inner-bar2{
+    width: 100px;
+    height: 15px;
+    background: linear-gradient(to left, rgb(124, 163, 247), rgb(8, 74, 255));
+}
+
+.inner-bar3{
+    width: 120px;
+    height: 15px;
+    background: linear-gradient(to left, rgb(124, 163, 247), rgb(8, 74, 255));
+}
+
+.inner-bar4{
+    width: 135px;
+    height: 15px;
+    background: linear-gradient(to left, rgb(124, 163, 247), rgb(8, 74, 255));
+}
+
+.inner-bar5{
+    width: 120px;
+    height: 15px;
+    background: linear-gradient(to left, rgb(124, 163, 247), rgb(8, 74, 255));
+}
