@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 700px;
+    border: 20px solid black;
+    background-color: aliceblue;
+    position: relative;
+}
+
+/* Left Side */
+.left-side{
+    width: 130px;
+    height: 700px;
+    position: absolute;
+    left: 30px;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+img{
+    width:130px;
+    height: 250px;
+}
+
+.about{
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.cntct{
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cntct-heading{
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.ul-1{
+    list-style: none;
+    font-size: 12px;
+}
+
+.ul-1-span{
+    font-size: 11px;
+}
+
+/* Footer Line */
+.footer-line{
+    background-color: limegreen;
+    width: 500px;
+    height: 8px;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* Right Side */
+.right-side{
+
+    width: 325px;
+    height: 680px;
+    position: absolute;
+    left: 175px
+}
+
+/* Double Line */
+.double-line{
+    width: 325px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+}
+
+.line1{
+    background-color: rgb(173, 157, 5);
+    width: 325px;
+    height: 15px;
+}
+
+.line2{
+    background-color: rgb(173, 157, 5);
+    width: 325px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+}
+
+/* Education */
+.education{
+    position: absolute;
+    top: 55px;
+}
+
+.dates{
+    position: absolute;
+    top: 20px;
+    font-size: 10px;
+}
+
+.verticle-line{
+    background-color: black;
+    width: 1px;
+    height: 15px;
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.verticle-line2{
+    background-color: black;
+    width: 1px;
+    height: 15px;
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+
+.e-para{
+    width: 180px;
+    position: absolute;
+    left: 75px;
+    font-size: 8px;
+}
+
+/* Work Experience */
+.work-experience{
+    position: absolute;
+    top: 190px;
+}
+
+.date4{
+    position: absolute;
+    top: 75px;
+}
+
+.icon4{
+    position: absolute;
+    top: 75px;
+    left: 56px;
+}
+
+.we-para{
+    width: 180px;
+    position: absolute;
+    left: 75px;
+    font-size: 7.5px;
+}
+
+.verticle-line3{
+    background-color: black;
+    width: 1px;
+    height: 25px;
+    position: absolute;
+    left: 60px;
+    top: 74px;
+}
+
+.verticle-line4{
+    background-color: black;
+    width: 1px;
+    height: 15px;
+    position: absolute;
+    left: 60px;
+    top: 105px;
+}
+
+/* SKills */
+.skills{
+    position: absolute;
+    top: 370px;
+}
+
+/* Circles */
+.progress1{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.progress2{
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+
+.progress3{
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+
+.progress4{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+
+.outer-circle{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(chartreuse 90%, transparent 0);
+}
+
+.inner-circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(229, 255, 0) 80%, transparent 0);
+}
+
+.inner-circle3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(chartreuse 70%, transparent 0);
+}
+
+.inner-circle4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(229, 255, 0) 60%, transparent 0);
+}
+
+.cover-circle{
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-labels{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.c-labels-j{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Hobbies */
+.hobbies{
+    position: absolute;
+    top: 505px;
+}
+
+div.icons{
+    width: 325px;
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.icons >i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.labels{
+    width: 325px;
+    position: absolute;
+    top: 80px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.color1{
+    background-color: chartreuse;
+}
+
+.color2{
+    background-color: rgb(229, 255, 0);
+}
