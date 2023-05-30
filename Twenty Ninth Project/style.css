@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+b{
+    font-weight: bolder;
+}
+
+.container{
+    border: 1px solid black;
+    width: 550px;
+    height: 700px;
+    position: relative;
+}
+
+/* Header */
+.header{
+    background-color: aqua;
+    width: 480px;
+    height: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    z-index: 1;
+}
+.name-designation{
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.designation{
+    color: white;
+}
+
+.profile-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+/* Main */
+.main{
+    width: 327px;
+    height: 595px;
+    position: absolute;
+    top: 100px;
+}
+/* Work Experience */
+.work-experience{
+    width: 270px;
+    height: 450px;
+    position: absolute;
+    left: 54px;
+}
+
+.we-heading{
+    width: 270px;
+    color: aqua;
+    position: absolute;
+    top: 20px;
+}
+
+.we-line{
+    width: 120px;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+
+/* Paras */
+.we-para1{
+    width: 270px;
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    font-size: 11px;
+}
+
+.ul-1, .ul-2, .ul-3{
+    list-style-type: circle;
+    position: absolute;
+    left: 20px;
+}
+
+.we-para2, .we-para3{
+    width: 270px;
+    height: 135px;
+    position: absolute;
+    top: 175px;
+    font-size: 11px;
+}
+
+.we-para3{
+    top: 320px;
+}
+
+/* Experience */
+.experience{
+    width: 270px;
+    height: 135px;
+    position: absolute;
+    left: 54px;
+    bottom: 0px;
+}
+
+.e-heading{
+    width: 270px;
+    color: aqua;
+    position: absolute;
+    top: 10px;
+}
+
+.e-line{
+    width: 170px;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+
+.e-blocks{
+    width: 270px;
+    height: 135px;
+    position: absolute;
+    top: 40px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.e-blocks >div{
+    width: 130px;
+    height: 80px;
+}
+
+/* Sidebar */
+.sidebar{
+    background-color: rgb(17, 25, 39);
+    width: 220px;
+    height: 700px;
+    position: absolute;
+    right: 0px;
+    color: white;
+}
+/* profile */
+.profile{
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.p-line{
+    width: 90px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+
+.p-para1{
+    font-size: 10px;
+    text-align: justify;
+    position: absolute;
+    top: 30px;
+}
+
+/* Skill */
+.skill{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+
+.skill-bar{
+    background-color: aqua;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.skill-bar h5{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.s-para{
+    color: white;
+    font-size: 9px;
+    width: 190px;
+    height: 125px;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+.ul-4{
+    position: absolute;
+    left:20px;
+    line-height: 20px;
+}
+
+.ul-5{
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    line-height: 20px;
+}
+
+.green-star{
+    color: green;
+}
+
+/* Language */
+.language{
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    top: 415px;
+    left: 0px;
+}
+
+.language-bar{
+    background-color: aqua;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.language-bar h5{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+.ul-6{
+    font-size: 9px;
+    position: absolute;
+    left: 20px;
+    line-height: 20px;
+    top: 50px;
+}
+
+/* Contact */
+.contact{
+    width: 190px;
+    height: 150px;
+    position: absolute;
+    top: 540px;
+    left: 0px;
+}
+
+.contact-bar{
+    background-color: aqua;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.contact-bar h5{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+/* Contact */
+.circle1, .circle2, .circle3{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+.circle2{
+    top: 75px;
+    left: 30px;
+}
+
+.circle3{
+    top: 115px;
+    left: 30px;
+}
+
+.line1{
+    background-color: white;
+    width: 2px;
+    height: 13px;
+    position: absolute;
+    left: 42px;
+    top: 62px;
+}
+
+.line2{
+    background-color: white;
+    width: 2px;
+    height: 13px;
+    position: absolute;
+    left: 42px;
+    top: 102px;
+}
+
+.circle1 >i, .circle2 >i, .circle3 >i{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+
+.contact span{
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ch1{
+    top: 40px;
+    left: 65px;
+}
+
+.ch2{
+    top: 80px;
+    left: 65px;
+}
+
+.ch3{
+    top: 120px;
+    left: 65px;
+}
