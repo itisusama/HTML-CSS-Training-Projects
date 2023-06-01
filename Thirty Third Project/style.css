@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50% 80%;
+}
+
+.container{
+    background-color:aliceblue;
+    width: 800px;
+    height: 890px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+/* Sidebar */
+.sidebar{
+    background-color: skyblue;
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.personal-info{
+    color: white;
+}
+
+.personal-info h2{
+    position: absolute;
+    top: 250px;
+    left: 15%;
+}
+
+.personal-info .icons{
+    position: absolute;
+    top: 290px;
+    left: 15%;
+}
+
+.personal-info img{
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    left: 15%;
+    top: 4%;
+}
+/* Lower Sidebar */
+.lower-sidebar{
+    background-color: blue;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.profile{
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 15%;
+    font-size: 14px;
+}
+
+.profile h2, .skill h2{
+    color: skyblue;
+    margin-bottom: 20px;
+}
+
+.skill{
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 15%;
+    font-size: 14px;
+}
+
+.ul-1{
+    margin-left: 20px;
+}
+
+.ul-1 li{
+    margin: 6px;
+}
+
+/* Main */
+.main{
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.heading{
+    font-family: calibri;
+    font-size: 20pt;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    height: 10px;
+}
+
+.para p{
+    font-size: 14px
+}
+/* Left Right Para */
+.left-right-para{
+    width: 100%;
+    height: 465px;
+    position: absolute;
+}
+
+.left-p{
+    height: 65%;
+    width: 10%;
+    position: absolute;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-p{
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    right: 0px;
+}
+
+.right-p p{
+    font-size: 13px;
+}
