@@ -1,0 +1,229 @@
+:root{
+    --blue: rgb(2, 48, 48);;
+    --headerColor: rgb(18, 114, 114);
+    --bgColor: aliceblue;
+    --teal: rgb(6, 184, 184);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: var(--blue);
+    width: 725px;
+    height: 485px;
+    border: 10px solid black;
+    position: relative;
+}
+
+/* Inner Container */
+.inner-container{
+    background-color: var(--bgColor);
+    height: 100%;
+    width: 75%;
+    position: absolute;
+    left: 50px;
+}
+
+/* Header */
+.header{
+    background-color: var(--headerColor);
+    width: 100%;
+    height: 25%;
+    position: absolute;
+}
+
+/* Name Designation */
+.name-designation{
+    color: var(--bgColor);
+    font-family: calibri;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+}
+
+.name-designation h1{
+    line-height: 10px;
+}
+
+.name-designation small{
+    font-size: 8px;
+}
+
+.name-designation h5{
+    color: var(--teal);
+}
+/* numbers */
+.numbers{
+    color: black;
+    display: flex;
+}
+.numbers >div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: var(--bgColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-info{
+    background-color: var(--bgColor);
+    border: 1px solid black;
+    width: 140px;
+    height: 300px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.person-info img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+
+.p-info-blocks{
+    margin-top: 150px;
+}
+
+.p-info-inner{
+    text-align: center;
+}
+
+.p-info-inner small{
+    font-size: 10px;
+    color: var(--teal);
+}
+
+.p-info-inner p{
+    font-size: 7px;
+}
+
+/* verticle line */
+.line{
+    width: 1px;
+    height: 350px;
+    background-color: black;
+    position: absolute;
+    left: 180px;
+    top: 115px;
+}
+
+/* Experience */
+.experience{
+    width: 170px;
+    height: 130px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+.e-heading{
+    width: fit-content;
+    background-color: var(--blue);
+    color: var(--bgColor);
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.e-paras{
+    display: flex;
+    justify-content: space-around;
+}
+
+.e-para-left{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.e-para-right{
+    margin-top: 10px;
+}
+
+.e-para-right p{
+    width: 100px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.e-para-right small{
+    font-size: 8px;
+    color: var(--teal);
+}
+
+/* Right Side */
+.right-side{
+    width: 335px;
+    height: 350px;
+    position: absolute;
+    top: 115px;
+    left: 190px;
+}
+
+/* About */
+.about p{
+    font-size: 8px;
+    line-height: 15px;
+}
+
+/* Work */
+.work-blocks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.w-left{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.w-left ul{
+    margin-top: 5px;
+}
+
+.w-right small{
+    font-size: 8px;
+    color: var(--teal);
+}
+
+.w-right p{
+    font-size: 5px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+/* Skill Circles */
+.skill-cirles{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.skill-cirles >div{
+    background-color: var(--bgColor);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
