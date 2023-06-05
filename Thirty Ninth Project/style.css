@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --bgColor: rgb(206, 208, 209);
+    --gold: gold;
+    --darkgrey: rgb(102, 102, 102);
+    --lightGrey: rgb(231, 229, 229);
+    --bgGradient: linear-gradient(to top left, rgb(29, 29, 29), rgb(148, 148, 148));
+    --headerClipPath: polygon(100% 0, 100% 80%, 90% 100%, 0 100%, 0 0);
+    --imageClipPath: polygon(100% 0, 100% 80%, 74% 100%, 0 100%, 0 0);
+    --softwareClipPath: polygon(100% 0, 100% 75%, 75% 100%, 0 100%, 0 0);
+}
+
+.container1{
+    width: 600px;
+    height: 780px;
+    position: relative;
+    background: var(--bgGradient)
+}
+
+.container2{
+    width: 580px;
+    height: 670px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: var(--bgColor);
+}
+
+/* Header */
+.header{
+    width: 480px;
+    height: 180px;
+    background-color: var(--lightGrey);
+    position: absolute;
+    margin: 50px;
+    clip-path: var(--headerClipPath);
+}
+
+.hero-img{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 304px;
+    top: 5px;
+    clip-path: var(--imageClipPath)
+}
+
+.div{
+    width: 15px;
+    height: 10px;
+    background-color: var(--gold);
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.hero-heading{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.para1{
+    font-size: 10px;
+    position: absolute;
+    left: 180px;
+    top: 17px;
+}
+
+.para2{
+    font-size: 10px;
+    position: absolute;
+    left: 20px;
+}
+
+.inner-block{
+    width: 330px;
+    height: 70px;
+    background-color:var(--gold);
+    opacity: 0.8;
+    position: absolute;
+    top: 95px;
+    left: 10px;
+}
+
+.inner-block-para{
+    font-size: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+/* Main */
+.main{
+    width: 480px;
+    height: 500px;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+}
+
+.expereince{
+    width: 300px;
+    height: 160px;
+    position: absolute;
+}
+
+.e-para1{
+    font-size: 11px;
+    font-weight: 800;
+    margin-top: 10px;
+    position: absolute;
+    left: 40px;
+}
+
+.e-para2{
+    font-size: 9px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.line{
+    width: 300px;
+    height: 1px;
+    background-color: black;
+}
+
+/* education */
+.education{
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    top: 160px;
+}
+
+/* Software */
+.software{
+    width: 480px;
+    height: 120px;
+    position: absolute;
+    top: 290px;
+}
+
+.s1{
+    width: 95px;
+    height: 60px;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+.part1{
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    background-color: var(--darkgrey);
+    clip-path: var(--softwareClipPath);
+    text-align: center;
+    line-height: 45px;
+}
+
+.bar1{
+    width: 60px;
+    height: 15px;
+    background-color: var(--gold);
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+.s-para{
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+}
+
+.s2{
+    width: 95px;
+    height: 60px;
+    position: absolute;
+    left: 155px;
+    top: 50px;
+}
+
+.s3{
+    width: 95px;
+    height: 60px;
+    position: absolute;
+    left: 270px;
+    top: 50px;
+}
+
+.s4{
+    width: 95px;
+    height: 60px;
+    position: absolute;
+    left: 385px;
+    top: 50px;
+}
+
+/* Skills */
+.skills{
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    left: 350px;
+}
+
+.skil-ul{
+    list-style: none;
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+/* Language */
+.language{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 160px;
+    left: 350px;
+}
+
+.lang-ul1{
+    list-style: none;
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    line-height: 18px;
+}
+
+.lang-ul2{
+    position: absolute;
+    left: 70px;
+    top: 40px;
+}
+
+.lang-ul2 .lang-ul2-li{
+    font-size: 10px;
+    list-style: none;
+    display: inline-flex;
+    line-height: 16px;
+}
+
+.star1{
+    color: var(--gold);
+}
+
+/* Footer */
+.footer{
+    width: 580px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 670px;
+}
+
+.f2{
+    width: 15px;
+    height: 10px;
+    background-color: gold;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+
+.f3{
+    width: 15px;
+    height: 10px;
+    background-color: gold;
+    position: absolute;
+    left: 260px;
+    top: 40px;
+}
+
+.f4{
+    width: 15px;
+    height: 10px;
+    background-color: gold;
+    position: absolute;
+    left: 480px;
+    top: 40px;
+}
+
+.footer-icon{
+    font-size: 20px;
+    margin-left: 12px;
+    position: absolute;
+    top: -15px;
+}
