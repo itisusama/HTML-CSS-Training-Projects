@@ -1,0 +1,191 @@
+:root{
+    --wave1: polygon(0 0, 100% 0, 100% 100%, 13% 8%);
+    --wave2: polygon(0 0, 100% 0, 100% 100%, 75% 84%, 40% 75%, 21% 70%, 26% 37%); 
+    --foot: polygon(100% 0, 72% 81%, 89% 100%, 0 100%, 0 0);
+    /* Colors */
+    --blue: cadetblue;
+    --coral: coral;
+    --brown: brown;
+    --aqua: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.wave1{
+    width: 270px;
+    height: 150px;
+    background-color: var(--blue);
+    clip-path: var(--wave1);
+    position: absolute;
+    right: 0px;
+}
+
+.wave2{
+    width: 100px;
+    height: 450px;
+    background-color: var(--coral);
+    clip-path: var(--wave2);
+    position: absolute;
+    right: 0px;
+}
+
+.foot{
+    width: 60px;
+    height: 200px;
+    background-color: var(--brown);
+    clip-path: var(--foot);
+    border-radius: 0 70px 0 0 ;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Header */
+.header{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+.header h1{
+    color: var(--blue);
+}
+
+.header hr{
+    background-color: black;
+    width: 95%;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.head-ul{
+    font-size: 11px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.head-ul li{
+    margin: 5px;
+ }
+
+/* main */
+/* block1 */
+.block1{
+    width: 90%;
+    height: 180px;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+}
+
+/* b1 left */
+.b1-left{
+    width: 170px;
+    height: 100%;
+    position: absolute;
+}
+
+.b1-left h5{
+    color: var(--aqua);
+}
+
+.b1-left span{
+    font-size: 10px;
+    background-color: yellow;
+}
+
+#wp{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+#sql{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+
+#ps{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+}
+
+/* b1 right */
+.b1-right{
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.b1-right h5{
+    color: var(--aqua);
+}
+
+.b1-right p{
+    font-size: 11px;
+}
+
+/* Block 2 */
+.block2{
+    width: 95%;
+    height: 400px;
+    position: absolute;
+    top: 350px;
+    left: 20px;
+}
+
+/* b2 left */
+.b2-left{
+    width: 195px;
+    height: 100%;
+    position: absolute;
+}
+
+.b2-left h5{
+    color: var(--aqua);
+    line-height: 25px;
+}
+
+.b2-left p{
+    font-size: 10px;
+}
+
+.h5-span{
+    color: var(--aqua);
+}
+
+/* b2 right */
+.b2-right{
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.b2-right h5{
+    color: var(--aqua);
+    line-height: 25px;   
+}
+
+.b2-right p{
+    font-size: 10px;
+}
+
+ul{
+    font-size: 10px;
+    margin-left: 30px;
+}
