@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    /* colors */
+    --bgColor:aliceblue;
+    --skinColor: rgb(233, 226, 127);
+    --footColor: rgb(233, 178, 127);
+    --textColor: turquoise;
+    --elementsColor: cadetblue;
+    /* Radius */
+    --sideCircle: 0 30px 70% 20px;
+    --circleRadius: 50%;
+    --clipPath: polygon(64% 51%, 100% 32%, 100% 100%, 0 100%, 0 35%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.container{
+    width: 550px;
+    height: 800px;
+    background-color: var(--bgColor);
+    border: 10px solid black;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    height: 25%;
+    position: absolute;
+}
+
+/* Circles */
+.l-circle{
+    width: 60%;
+    height: 100%;
+    background-color: var(--elementsColor);
+    border-radius: var(--sideCircle);
+    position: absolute;
+}
+
+.r-circle{
+    width: 35%;
+    height: 90%;
+    background-color: var(--elementsColor);
+    border-radius: var(--circleRadius);
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+/* Image */
+.hero img{
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    border-radius: var(--circleRadius);
+    right: 5%;
+    top: 8%;
+}
+
+/* Icons */
+.icon-pin{
+    font-size: 50px;
+    position: absolute; 
+    right: 30px;
+    top: 30px;
+}
+
+.icon-smile{
+    font-size: 50px;
+    color: rgb(30, 100, 102);
+    position: absolute; 
+    right: 170px;
+    top: 120px;
+}
+
+/* Hero Heading */
+.hero-heading{
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+/* Main Left*/
+.main-left{
+    height: 60%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+}
+
+.blocks h4{
+    color: var(--textColor);
+}
+
+.blocks p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.block1{
+    width: 100%;
+    height: 100px;
+}
+
+.block2{
+    width: 100%;
+    height: 150px;
+    margin-top: 35px;
+}
+
+.block3{
+    width: 100%;
+    height: 130px;
+    margin-top: 50px;
+}
+
+.b2-blocks{
+    display: flex;
+}
+
+.b2-left{
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+/* Div Bars */
+.b2-right >div{
+    width: 50px;
+    height: 10px;
+    background-color: var(--elementsColor);
+    margin: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 50px;
+}
+
+/* calling the child element */
+.b2-right >div:nth-child(3){
+    width: 60px;
+}
+
+/* Main-right */
+.main-right{
+    height: 60%;
+    width: 45%;
+    background-color: var(--skinColor);
+    position: absolute;
+    bottom: 10%;
+    right: 8%;   
+}
+
+.icon-paperclip{
+    font-size: 50px;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+}
+
+.r-blocks h4{
+    color: var(--textColor);
+}
+
+.r-blocks p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.ul-1{
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.r-block2{
+    position: absolute;
+    bottom: 70px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+}
+
+.f-shape{
+    width: 180px;
+    height: 50px;
+    background-color: var(--footColor);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 60px;
+    clip-path: var(--clipPath);
+}
