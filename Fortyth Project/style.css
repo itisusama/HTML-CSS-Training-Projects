@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --lightgrey: rgb(184, 185, 185);
+    --innerContainerColors:rgb(221, 223, 224);
+    --shadow: 40px 25px 40px 0 rgb(53, 53, 53);
+    --bgColor: aliceblue;
+    --grey:rgb(102, 102, 102);
+    --txtColor: gray;
+}
+
+/* Containers */
+.container-main{
+    width: 1100px;
+    height: 800px;
+    position: relative;
+    background-color: var(--lightgrey);
+}
+
+.container-1{
+    width: 500px;
+    height: 750px;
+    background-color: var(--innerContainerColors);
+    position: absolute;
+    margin: 25px;
+    box-shadow: var(--shadow);
+}
+
+/* Header */
+.header{
+    width: 420px;
+    height: 70px;
+    position: absolute;
+    margin: 40px;
+}
+
+.head-div{
+    width: 12px;
+    height: 70px;
+    background-color: var(--bgColor);
+    position: absolute;
+}
+
+.head-para{
+    font-size: 10px;
+    position: absolute;
+    left: 30px;
+    width: 200px;
+}
+
+.head-heading{
+    position: absolute;
+    text-transform: capitalize;
+    left: 30px;
+    width: 300px;
+    top: 48px;
+}
+
+.head-ul{
+    list-style: none;
+    position: absolute;
+    font-size: 11px;
+    text-transform: uppercase;
+    left: 410px;
+    line-height: 15px;
+}
+/* Main */
+
+.main{
+    width: 420px;
+    height: 480px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+
+.main-heading{
+    text-transform: capitalize;
+    position: absolute;
+    left: 40px;
+}
+
+.part1{
+    width: 230px;
+    height: 400px;
+    background-color: var(--bgColor);
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+
+.line{
+    width: 30px;
+    height: 6px;
+    background-color: var(--txtColor);
+    position: absolute;
+    top: 75px;
+}
+
+.line2{
+    width: 100px;
+    height: 10px;
+    background-color: var(--txtColor);
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.number{
+    color: var(--grey);
+    margin-left: 55px;
+    margin-top: 55px;
+    position: absolute;
+}
+
+.prof{
+    text-transform: capitalize;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 120px;
+}
+
+.main-heading2{
+    position: absolute;
+    font-size: 10;
+    font-weight: 900;
+    left: 20px;
+    margin-top: 10px;
+}
+
+.main-heading3{
+    font-size: 10px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 200px;
+}
+
+.p1{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.p2{
+    position: absolute;
+    margin-left: 120px;
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+.p3{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.p4{
+    position: absolute;
+    margin-left: 120px;
+    font-size: 8px;
+    margin-top: 40px;
+}
+
+.p5{
+    position: absolute;
+    margin-left: 120px;
+    font-size: 8px;
+    margin-top: 50px;
+}
+
+.part2{
+    width: 145px;
+    height: 480px;
+    background-color: var(--bgColor);
+    position: absolute;
+    margin-left: 270px;
+}
+
+.hero-img{
+    width: 145px;
+    height: 130px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.hero-para{
+    position: absolute;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.hero-para2{
+    font-size: 9px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.hero-para3{
+    position: absolute;
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.hero-para4{
+    font-size: 9px;
+    position: absolute;
+    left: 20px;
+    margin-top: 25px;
+}
+
+.container-2{
+    width: 500px;
+    height: 750px;
+    background-color: var(--innerContainerColors);
+    position: absolute;
+    left: 575px;
+    top: 25px;
+}
+
+.top-2{
+    width: 15px;
+    height: 40px;
+    background-color: aliceblue;
+    position: absolute;
+    margin: 50px;
+}
+
+.sec2-para1{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.sec2-para2{
+    position: absolute;
+    font-size: 9px;
+    font-weight: 900;
+    margin-top: 52px;
+    margin-left: 155px;
+}
+
+.sec2-para3{
+    position: absolute;
+    font-size: 8px;
+    font-weight: 900;
+    margin-top: 65px;
+    margin-left: 80px;
+}
+
+/* Education */
+.mini-line{
+    width: 30px;
+    height: 7px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.edu{
+    text-transform: capitalize;
+    transform: rotate(270deg);
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -25px;
+}
+
+.education{
+    width: 370px;
+    height: 200px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 128px;
+}
+
+.edu-number{
+    color: rgb(102, 102, 102);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.edu-line{
+    width: 270px;
+    height: 12px;
+    position: absolute;
+    background-color: gray;
+    margin-left: 100px;
+}
+
+.skl-heading{
+    font-size: 10px;
+    font-weight: 900;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.skl-para1{
+    font-size: 9px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.skl-para2{
+    font-size: 7px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 100px;
+}
+
+/* Skill */
+.skills{
+    width: 370px;
+    height: 310px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 128px;
+}
+
+.skl{
+    text-transform: capitalize;
+    transform: rotate(270deg);
+    position: absolute;
+    margin-top: 60px;
+}
+
+.skl-para3{
+    font-size: 9px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 230px;
+}
